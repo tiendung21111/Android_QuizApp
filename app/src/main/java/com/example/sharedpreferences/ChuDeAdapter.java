@@ -35,7 +35,7 @@ public class ChuDeAdapter extends BaseAdapter {
 
     @Override
     public long getItemId(int position) {
-        return danhSachChuDe.get(position).getImage();
+        return danhSachChuDe.get(position).getId();
     }
 
     @Override

@@ -7,6 +7,17 @@ public class ChuDe {
 
     private String chiTiet;
 
+
+    private  int id;
+
+    public int getId() {
+        return id;
+    }
+
+    public void setId(int id) {
+        this.id = id;
+    }
+
     public int getImage() {
         return image;
     }
@@ -31,7 +42,8 @@ public class ChuDe {
         this.chiTiet = chiTiet;
     }
 
-    public ChuDe(int image, String tenChuDe, String chiTiet) {
+    public ChuDe(int image, String tenChuDe, String chiTiet, int id) {
+        this.id = id;
         this.image = image;
         this.tenChuDe = tenChuDe;
         this.chiTiet = chiTiet;

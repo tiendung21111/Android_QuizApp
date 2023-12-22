@@ -3,9 +3,10 @@ package com.example.sharedpreferences;
 import java.util.ArrayList;
 import java.util.List;
 
+
 public class Question {
     private String Chu_de;
-    private boolean do_kho;
+    private String do_kho;
     private int id;
     private String question;
     private String optionA;
@@ -16,7 +17,7 @@ public class Question {
 
     private String rightAnswer;
 
-    public Question(String chu_de, boolean do_kho, int id, String question, String optionA, String optionB, String optionC, String optionD, String rightAnswer) {
+    public Question(String chu_de, String do_kho, int id, String question, String optionA, String optionB, String optionC, String optionD, String rightAnswer) {
         Chu_de = chu_de;
         this.do_kho = do_kho;
         this.id = id;
@@ -26,6 +27,30 @@ public class Question {
         this.optionC = optionC;
         this.optionD = optionD;
         this.rightAnswer = rightAnswer;
+    }
+
+    public String getChu_de() {
+        return Chu_de;
+    }
+
+    public void setChu_de(String chu_de) {
+        Chu_de = chu_de;
+    }
+
+    public String getDo_kho() {
+        return do_kho;
+    }
+
+    public void setDo_kho(String do_kho) {
+        this.do_kho = do_kho;
+    }
+
+    public int getId() {
+        return id;
+    }
+
+    public void setId(int id) {
+        this.id = id;
     }
 
     public String getQuestion() {
@@ -75,28 +100,5 @@ public class Question {
     public void setRightAnswer(String rightAnswer) {
         this.rightAnswer = rightAnswer;
     }
-
-    public String getChu_de() {
-        return Chu_de;
-    }
-
-    public void setChu_de(String chu_de) {
-        Chu_de = chu_de;
-    }
-
-    public boolean isDo_kho() {
-        return do_kho;
-    }
-
-    public void setDo_kho(boolean do_kho) {
-        this.do_kho = do_kho;
-    }
-
-    public int getId() {
-        return id;
-    }
-
-    public void setId(int id) {
-        this.id = id;
-    }
 }
+

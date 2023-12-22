@@ -38,7 +38,7 @@ public class LQuestionAdapter extends BaseAdapter {
         Question question = listQuestion.get(position);
         //ten sap pham
         ((TextView)viewItem.findViewById(R.id.chu_de)).setText(question.getChu_de());
-        ((TextView)viewItem.findViewById(R.id.do_kho)).setText(String.valueOf(question.isDo_kho()));
+//        ((TextView)viewItem.findViewById(R.id.do_kho)).setText(String.valueOf(question.isDo_kho()));
         return viewItem;
     }
 }

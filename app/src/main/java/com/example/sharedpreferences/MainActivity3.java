@@ -78,7 +78,7 @@ public class MainActivity3 extends AppCompatActivity {
         }
 
         else if(ths == 5) {
-            questions.add(new Question("Đâu là 1 trong 4 con rồng kinh tế của châu á?", new String[]{"Việt Nam", "Trung Quốc", "Hong Kong", "Nhật Bản"}, 0));
+            questions.add(new Question("Đâu là 1 trong 4 con rồng kinh tế của châu á?", new String[]{"Việt Nam", "Trung Quốc", "Hong Kong", "Nhật Bản"}, 2));
             questions.add(new Question("Đồng tiền nước nào có giá trị cao nhất thế giới??", new String[]{"Mỹ", "Anh", "Kuwait", "Nhật"}, 2));
             questions.add(new Question("Đâu là trung tâm tài chính thế giới ?", new String[]{"Hong Kong", "Đài loan", "New York", "Wasington"}, 2));
         }

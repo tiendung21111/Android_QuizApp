@@ -24,19 +24,20 @@
         android:gravity="center"/>
 
     <ListView
+        android:layout_marginTop="20dp"
         android:layout_width="match_parent"
-        android:layout_height="500dp"
+        android:layout_height="450dp"
         android:id="@+id/listProduct"/>
     
     <Switch
-        android:layout_marginTop="20dp"
+        android:layout_marginTop="25dp"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="cap do kho"
         android:layout_gravity="center"/>
     
     <Button
-        android:layout_marginTop="15dp"
+        android:layout_marginTop="50dp"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="danh sach cau hoi"

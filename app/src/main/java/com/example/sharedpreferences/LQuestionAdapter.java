@@ -7,9 +7,9 @@ import android.widget.TextView;
 
 import java.util.ArrayList;
 
-public class QuestionAdapter extends BaseAdapter {
+public class LQuestionAdapter extends BaseAdapter {
     private ArrayList<Question> listQuestion;
-    public QuestionAdapter(ArrayList<Question> listQuestion) {
+    public LQuestionAdapter(ArrayList<Question> listQuestion) {
         this.listQuestion = listQuestion;
     }
 

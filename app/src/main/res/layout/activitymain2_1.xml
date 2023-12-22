@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:padding="20dp"
+    tools:context=".MainActivity"
+    >
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/product_image"
+            android:layout_width="120dp"
+            android:layout_height="70dp"
+            app:srcCompat = "@drawable/dialy"
+
+            />
+
+
+        <LinearLayout
+            android:layout_marginLeft="20dp"
+            android:layout_width="148dp"
+            android:layout_height="68dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/product_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:layout_gravity="center_vertical"
+
+
+                android:textSize="22dp"
+
+                android:textStyle="bold"
+                tools:text="Địa Ly"
+
+                />
+
+
+            <TextView
+                android:id="@+id/product_gt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="15dp"
+                tools:text="price: priceless" />
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+</LinearLayout>

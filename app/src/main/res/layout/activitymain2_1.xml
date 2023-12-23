@@ -9,6 +9,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:padding="20dp"
     tools:context=".MainActivity"
+    android:background="@color/white"
+
     >
 
 

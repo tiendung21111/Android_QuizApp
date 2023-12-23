@@ -4,7 +4,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity5">
+    tools:context=".MainActivity5"
+    android:background="#F3EDFD">
 
     <TextView
         android:id="@+id/textView4"
@@ -13,18 +14,20 @@
         android:layout_marginStart="20dp"
         android:layout_marginTop="40dp"
         android:text="Chủ đề"
+        android:textSize="16sp"
+        android:textStyle="bold"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
     <com.google.android.material.textfield.TextInputLayout
         android:id="@+id/textInputLayout"
-        android:layout_width="290dp"
-        android:layout_height="26dp"
-        android:layout_marginTop="40dp"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
         android:layout_marginEnd="50dp"
+        app:layout_constraintBaseline_toBaselineOf="@+id/textView4"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toEndOf="@+id/textView4"
-        app:layout_constraintTop_toTopOf="parent">
+        app:layout_constraintStart_toEndOf="@+id/textView4">
 
         <AutoCompleteTextView
             android:id="@+id/Chu_de"
@@ -38,7 +41,12 @@
         android:id="@+id/listQuestion"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
+        android:layout_marginStart="10dp"
         android:layout_marginTop="100dp"
+        android:layout_marginEnd="10dp"
+        android:background="#F3EDFD"
+        android:divider="#F3EDFD"
+        android:dividerHeight="5dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"

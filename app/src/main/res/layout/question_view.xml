@@ -3,7 +3,8 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="100dp">
+    android:layout_height="120dp"
+    android:background="@color/white">
 
     <TextView
         android:id="@+id/chu_de"
@@ -12,6 +13,8 @@
         android:layout_marginStart="10dp"
         android:layout_marginTop="15dp"
         android:text="Chủ đề"
+        android:textSize="16sp"
+        android:textStyle="bold"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
@@ -21,6 +24,16 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="10dp"
         android:text="Độ khó"
+        android:textStyle="italic"
         app:layout_constraintStart_toStartOf="@+id/chu_de"
         app:layout_constraintTop_toBottomOf="@+id/chu_de" />
+
+    <TextView
+        android:id="@+id/review_cau_hoi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="TextView"
+        app:layout_constraintStart_toStartOf="@+id/do_kho"
+        app:layout_constraintTop_toBottomOf="@+id/do_kho" />
 </androidx.constraintlayout.widget.ConstraintLayout>

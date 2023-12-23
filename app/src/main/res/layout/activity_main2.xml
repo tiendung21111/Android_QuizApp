@@ -6,6 +6,7 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity"
     android:orientation="vertical"
+    android:background="#F3EDFD"
     >
     <TextView
         android:layout_width="match_parent"
@@ -27,7 +28,13 @@
         android:layout_marginTop="20dp"
         android:layout_width="match_parent"
         android:layout_height="450dp"
-        android:id="@+id/listProduct"/>
+        android:id="@+id/listProduct"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp"
+        android:dividerHeight="5dp"
+        android:background="#F3EDFD"
+        android:divider="#F3EDFD"
+        />
     
     <Switch
         android:id="@+id/checkDoKho"

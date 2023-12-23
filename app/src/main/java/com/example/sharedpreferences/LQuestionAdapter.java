@@ -39,6 +39,7 @@ public class LQuestionAdapter extends BaseAdapter {
         //hien thi chu de va do kho cua no
         ((TextView)viewItem.findViewById(R.id.chu_de)).setText(question.getChu_de());
         ((TextView)viewItem.findViewById(R.id.do_kho)).setText(String.valueOf(question.getDo_kho()));
+        ((TextView)viewItem.findViewById(R.id.review_cau_hoi)).setText(question.getQuestion());
         return viewItem;
     }
 }

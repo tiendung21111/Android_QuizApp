@@ -12,6 +12,9 @@ import android.widget.Toast;
 
 public class MainActivity4 extends AppCompatActivity {
 
+    private int ths2;
+    private int tmpM4;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -37,7 +40,7 @@ public class MainActivity4 extends AppCompatActivity {
         share.setOnClickListener(v -> {
             Intent sendIntent = new Intent();
             sendIntent.setAction(Intent.ACTION_SEND);
-            sendIntent.putExtra(Intent.EXTRA_TEXT, "Tôi đã đạt được " + String.valueOf(rightAs)+ " điểm trong ứng dụng GoQuiz");
+            sendIntent.putExtra(Intent.EXTRA_TEXT, "Tôi đã đạt được " + String.valueOf(rightAs)+ " điểm trong ứng dụng Q&A");
             sendIntent.setType("text/plain");
             if (sendIntent.resolveActivity(getPackageManager()) != null) {
                 startActivity(sendIntent);
@@ -48,5 +51,24 @@ public class MainActivity4 extends AppCompatActivity {
 
 
         });
+
+        Intent intent2 = getIntent();
+        int ths1 = intent2.getIntExtra("thsFromM3",0 );
+        int tmp1 = intent2.getIntExtra("tmp", 0);
+        ths2 = ths1+8;
+        tmpM4 = tmp1;
+
+        Button btnChoiLai = findViewById(R.id.choi_lai);
+        btnChoiLai.setOnClickListener(View -> {
+
+            Intent intent = new Intent(MainActivity4.this, MainActivity3.class);
+            intent.putExtra("ths1FromM4", ths2);
+            intent.putExtra("tmp1", tmpM4);
+            startActivity(intent);
+
+        });
+
+
+
     }
 }

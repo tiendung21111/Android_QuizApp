@@ -29,7 +29,7 @@ public class MainActivity6 extends AppCompatActivity {
         dap_an_b.setText(intent.getStringExtra("dapanB"));
         dap_an_c.setText(intent.getStringExtra("dapanC"));
         dap_an_d.setText(intent.getStringExtra("dapanD"));
-        dap_an_dung.setText(intent.getStringExtra("dapandung"));
+        dap_an_dung.setText("Đáp án đúng: "+intent.getStringExtra("dapandung"));
 
 
     }

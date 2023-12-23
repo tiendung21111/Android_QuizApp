@@ -37,7 +37,7 @@ public class MainActivity4 extends AppCompatActivity {
         share.setOnClickListener(v -> {
             Intent sendIntent = new Intent();
             sendIntent.setAction(Intent.ACTION_SEND);
-            sendIntent.putExtra(Intent.EXTRA_TEXT, "Tôi đã đạt được " + String.valueOf(rightAs)+ " điểm trong ứng dụng Q&A");
+            sendIntent.putExtra(Intent.EXTRA_TEXT, "Tôi đã đạt được " + String.valueOf(rightAs)+ " điểm trong ứng dụng GoQuiz");
             sendIntent.setType("text/plain");
             if (sendIntent.resolveActivity(getPackageManager()) != null) {
                 startActivity(sendIntent);

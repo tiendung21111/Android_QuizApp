@@ -62,7 +62,7 @@ public class MainActivity3 extends AppCompatActivity {
 
         if(ths == 1) {
             questions.add(new Question("Quần Đảo Hoàng Sa thuộc tỉnh/ tp nào?", new String[]{"Đà Nẵng", "Nha Trang", "Phan Thiết", "Hải Phòng"}, 0));
-            questions.add(new Question("Việt Nam có bao nhiêu dân tộc thiểu số?", new String[]{"51", "53", "54", "55"}, 1));
+            questions.add(new Question("Việt Nam có bao nhiêu dân tộc thiểu số?", new String[]{"51", "53", "54", "55"}, 2));
             questions.add(new Question("Cột mốc biên giới Việt Nam - Lào- Campuchia ở đâu?", new String[]{"Hà Giang", "Điện Biên", "Kon Tum", "Lào Cai"}, 2));
         }
         else if(ths == 2) {

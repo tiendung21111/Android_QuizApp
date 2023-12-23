@@ -30,15 +30,15 @@ public class LQuestionAdapter extends BaseAdapter {
 
     @Override
     public View getView(int position, View convertView, ViewGroup parent) {
-        View viewItem;//View cua 1 san pham
+        View viewItem;//View cua 1 cau hoi
         if(convertView==null)
             viewItem=  View.inflate(parent.getContext(),R.layout.question_view,null);
         else
             viewItem = convertView;
         Question question = listQuestion.get(position);
-        //ten sap pham
+        //hien thi chu de va do kho cua no
         ((TextView)viewItem.findViewById(R.id.chu_de)).setText(question.getChu_de());
-//        ((TextView)viewItem.findViewById(R.id.do_kho)).setText(String.valueOf(question.isDo_kho()));
+        ((TextView)viewItem.findViewById(R.id.do_kho)).setText(String.valueOf(question.getDo_kho()));
         return viewItem;
     }
 }

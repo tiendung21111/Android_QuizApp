@@ -41,15 +41,18 @@
         android:layout_marginTop="25dp"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="cap do kho"
-        android:layout_gravity="center"/>
+        android:text="Cấp độ khó              "
+        android:layout_gravity="center"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        />
     
     <Button
         android:id="@+id/listCH"
         android:layout_marginTop="50dp"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="danh sach cau hoi"
+        android:text="Danh sách câu hỏi"
         android:layout_gravity="center"
         />
 

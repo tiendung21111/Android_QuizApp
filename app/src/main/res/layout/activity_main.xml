@@ -23,12 +23,13 @@
         app:layout_constraintVertical_bias="0.125" />
 
     <TextView
+        android:gravity="left"
         android:id="@+id/textView"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginStart="50dp"
         android:layout_marginEnd="50dp"
-        android:text="Chào mừng bạn đến với trò chơi GoQuiz.Trong trò chơi này, bạn  trả lời các câu hỏi theo các chủ đề: Lịch sử, Địa lý, Khoa học, Nghệ thuật,... Bạn có thể trả lời các câu hỏi ở 2 cấp độ là dễ và khó. Thành tích của bạn giữa các lần chơi sẽ được lưu lại."
+        android:text="Chào mừng bạn đến với trò chơi GoQuiz.Trong trò chơi này, bạn  trả lời các câu hỏi theo các chủ đề: Lịch sử, Địa lý, Khoa học, Nghệ thuật,...Bạn có thể trả lời các câu hỏi ở 2 cấp độ là dễ và khó.Thành tích của bạn giữa các lần chơi sẽ được lưu lại."
         android:textSize="20dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"

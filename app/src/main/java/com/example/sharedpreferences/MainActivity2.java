@@ -25,10 +25,10 @@ public class MainActivity2 extends AppCompatActivity {
         setContentView(R.layout.activity_main2);
 
         danhSach = new ArrayList<>();
-        danhSach.add(new ChuDe(R.drawable.dialy, "Dia Ly", "cau hoi ve dia ly", 1));
-        danhSach.add(new ChuDe(R.drawable.lichsu, "Lich Su", "cau hoi ve lich su", 2));
-        danhSach.add(new ChuDe(R.drawable.taichinh, "tai chinh", "cau hoi ve kte tai chinh", 3));
-        danhSach.add(new ChuDe(R.drawable.nghethuat, "nghe thuat", "cau hoi ve nghe thuat", 4));
+        danhSach.add(new ChuDe(R.drawable.dialy, "Địa Lý", "Những câu hỏi xoay quanh địa lý Việt Nam", 1));
+        danhSach.add(new ChuDe(R.drawable.lichsu, "Lịch Sử", "Câu hỏi về những sự kiện lịch sử Việt Nam", 2));
+        danhSach.add(new ChuDe(R.drawable.taichinh, "Tài Chính", "Câu hỏi về vấn đề tài chính kinh tế toàn cầu", 3));
+        danhSach.add(new ChuDe(R.drawable.nghethuat, "Nghệ Thuật", "Câu hỏi về nghệ thuật thế giới", 4));
 
         ChuDeAdapter adapter = new ChuDeAdapter(danhSach);
         ListView listView = findViewById(R.id.listProduct);

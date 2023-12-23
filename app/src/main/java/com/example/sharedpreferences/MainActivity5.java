@@ -76,7 +76,7 @@ public class MainActivity5 extends AppCompatActivity {
 
         questionList.add(new Question("Địa lý","dễ",7,"Hang động lớn nhất Việt Nam?","Phong Nha- Kẻ Bàng", "Sơn Đòong", "Hang Én", "Tràng An","Sơn Đòong"));
         questionList.add(new Question("Địa lý","dễ",8,"Giờ Việt Nam theo múi giờ nào?", "GMT+7", "GMT+8", "GMT+11", "GMT+12","GMT+7"));
-        questionList.add(new Question("Địa lý","dễ",9,"Vịnh nào Việt Nam lot top 7 kỳ quan thế giới?","Cát Bà", "Côtô", "Hạ Long", "Lan Hạ","Lan Hạ"));
+        questionList.add(new Question("Địa lý","dễ",9,"Vịnh nào Việt Nam lot top 7 kỳ quan thế giới?","Cát Bà", "Côtô", "Hạ Long", "Lan Hạ","Hạ Long"));
 
         questionList.add(new Question("Địa lý","dễ",9,"Dòng sông nào là con sông dài nhất thế giới?", "Sông Nile", "Sông Amazon", "Sông Mekong", "Sông Mississippi","Sông Nile"));
         questionList.add(new Question("Địa lý","dễ",9,"Thành phố nào được biết đến với tên gọi Thủ đô ánh sáng?", "Paris", "New York", "Tokyo", "Seoul","Paris"));
@@ -115,7 +115,7 @@ public class MainActivity5 extends AppCompatActivity {
 
         questionList.add(new Question("Tài chính","dễ",16,"Đâu là nước có nền kinh tế phát triển nhất thế giới?", "Mỹ", "Đức", "Trung Quốc", "Nhật Bản","Mỹ"));
         questionList.add(new Question("Tài chính","dễ",17,"Việt Nam có nền kinh tế phát triển thứ mấy Đông Nam Á?", "1", "2", "3", "4","4"));
-        questionList.add(new Question("Tài chính","dễ",18,"Đâu là ti phú giàu nhất Thế Giới?", "Elon Musk", "Jeff Bezos", "Bill Gates", "Warren Buffet","Warren Buffet"));
+        questionList.add(new Question("Tài chính","dễ",18,"Đâu là ti phú giàu nhất Thế Giới?", "Elon Musk", "Jeff Bezos", "Bill Gates", "Warren Buffet","Elon Musk"));
 
         questionList.add(new Question("Tài chính","dễ",18,"Khái niệm \"lãi suất\" trong tài chính được định nghĩa như thế nào?", "Phí mở tài khoản ngân hàng", "Tỉ lệ giữa thu nhập và chi phí", "Phần trăm tiền lãi hàng năm", "Giá trị của một đồng tiền","Phần trăm tiền lãi hàng năm"));
         questionList.add(new Question("Tài chính","dễ",18,"Định nghĩa \"chứng khoán\" là gì trong ngữ cảnh tài chính?", "Chứng chỉ khen ngợi từ ngân hàng", "Tài sản có thể chuyển đổi thành tiền mặt", "Giấy tờ chứng minh nhân dân", "Chứng chỉ biểu hiện quyền sở hữu trong công ty","Chứng chỉ biểu hiện quyền sở hữu trong công ty"));

@@ -83,7 +83,7 @@ public class MainActivity3 extends AppCompatActivity {
             } else if (ths == 2) {
                 questions.add(new Question("Hang động lớn nhất Việt Nam?", new String[]{"Phong Nha- Kẻ Bàng", "Sơn Đòong", "Hang Én", "Tràng An"}, 1));
                 questions.add(new Question("Giờ Việt Nam theo múi giờ nào?", new String[]{"GMT+7", "GMT+8", "GMT+11", "GMT+12"}, 0));
-                questions.add(new Question("Vịnh nào Việt Nam lot top 7 kỳ quan thế giới?", new String[]{"Cát Bà", "Côtô", "Hạ Long", "Lan Hạ"}, 3));
+                questions.add(new Question("Vịnh nào Việt Nam lot top 7 kỳ quan thế giới?", new String[]{"Cát Bà", "Côtô", "Hạ Long", "Lan Hạ"}, 2));
             } else if (ths == 3) {
                 questions.add(new Question("Trong lịch sử, Nhà Trần đã 3 lần đánh thắng quân xâm lược nào?", new String[]{"Nam Hán", "Nhà Thanh", "Nhà Tần", "Mông Nguyên"}, 3));
                 questions.add(new Question("Quốc hiệu Việt Nam dưới thời nhà Hồ?", new String[]{"Đại Ngu", "Đại Việt", "Văn Lang", "Âu Lac"}, 0));
@@ -99,7 +99,7 @@ public class MainActivity3 extends AppCompatActivity {
             } else if (ths == 6) {
                 questions.add(new Question("Đâu là nước có nền kinh tế phát triển nhất thế giới?", new String[]{"Mỹ", "Đức", "Trung Quốc", "Nhật Bản"}, 0));
                 questions.add(new Question("Việt Nam có nền kinh tế phát triển thứ mấy Đông Nam Á?", new String[]{"1", "2", "3", "4"}, 3));
-                questions.add(new Question("Đâu là ti phú giàu nhất Thế Giới?", new String[]{"Elon Musk", "Jeff Bezos", "Bill Gates", "Warren Buffet"}, 3));
+                questions.add(new Question("Đâu là ti phú giàu nhất Thế Giới?", new String[]{"Elon Musk", "Jeff Bezos", "Bill Gates", "Warren Buffet"}, 0));
             } else if (ths == 7) {
                 questions.add(new Question("Bức tranh mona lisa của họa sĩ nào?", new String[]{"Van Gogh", "Manat", "Picasso", "Leonardo da vinci"}, 3));
                 questions.add(new Question("Bài hát “Tình ca”- Hoàng Việt nói đến mùa nào trong năm?", new String[]{"Mùa Xuân", "Mùa Hạ", "Mùa Thu", "Mùa Đông"}, 0));

@@ -113,9 +113,9 @@ public class MainActivity3 extends AppCompatActivity {
             if (ths1FromM4 == 9) {
                 questions.add(new Question("Biểu hiện nào của hiện tượng khí hậu biến đổi toàn cầu đang gây ảnh hưởng lớn nhất đến đại dương?", new String[]{"Tăng mực nước biển", "Hiện tượng El Niño", "Sự phân hóa nước biển", "Tăng cường tác động của sóng"}, 0));
                 questions.add(new Question("Khu vực nào trên thế giới chịu ảnh hưởng nặng nề từ hiện tượng ô nhiễm không khí?", new String[]{"Scandinavia", "Amazon", "Ruhr Valley", "Himalaya"}, 2));
-                questions.add(new Question("Đặc điểm nào của sa mạc châu Phi làm nó trở thành một trong những môi trường khắc nghiệt nhất trên Trái Đất?", new String[]{"Thực vật xanh quanh năm", "Nhiệt độ cao và khô(đúng)", "Lượng mưa hàng năm lớn", "Đất màu đỏ chứa nhiều dưỡng"}, 3));
+                questions.add(new Question("Đặc điểm nào của sa mạc châu Phi làm nó trở thành một trong những môi trường khắc nghiệt nhất trên Trái Đất?", new String[]{"Thực vật xanh quanh năm", "Nhiệt độ cao và khô", "Lượng mưa hàng năm lớn", "Đất màu đỏ chứa nhiều dưỡng"}, 3));
             } else if (ths1FromM4 == 10) {
-                questions.add(new Question("Dòng sông nào là con sông dài nhất thế giới?", new String[]{"Sông Nile", "Sông Amazon(đúng)", "Sông Mekong", "Sông Mississippi"}, 1));
+                questions.add(new Question("Dòng sông nào là con sông dài nhất thế giới?", new String[]{"Sông Nile", "Sông Amazon", "Sông Mekong", "Sông Mississippi"}, 1));
                 questions.add(new Question("Thành phố nào được biết đến với tên gọi Thủ đô ánh sáng?", new String[]{"Paris", "New York", "Tokyo", "Seoul"}, 2));
                 questions.add(new Question("Dãy núi nào tạo thành ranh giới tự nhiên giữa châu Âu và châu Á?", new String[]{"Dãy Alps", "Dãy Ural", "Dãy Carpathian", "Dãy Andes"}, 1));
             } else if (ths1FromM4 == 11) {

@@ -37,6 +37,9 @@ public class MainActivity3 extends AppCompatActivity {
     private int countRightAnswer = 0;
     private String txtCount;
 
+    private int someth = 0;
+
+
 
     @SuppressLint("MissingInflatedId")
     @Override
@@ -53,6 +56,8 @@ public class MainActivity3 extends AppCompatActivity {
 
         Intent intent1 = getIntent();
         int ths = intent1.getIntExtra("th", 0);
+        someth = ths;
+
 
 
         if(ths == 1) {
@@ -97,7 +102,7 @@ public class MainActivity3 extends AppCompatActivity {
 
         else {
             questions.add(new Question("Van Gogh là một họa sĩ nước nào?", new String[]{"Ý", "Hà Lan", "Pháp", "Thụy Sĩ"}, 1));
-            questions.add(new Question("Bản nhạc sonate là bản nhạc huyền thoại của nghệ sĩ nào?", new String[]{"Beethoven", "Paganini", "Mozart", "Brahms"}, 0));
+            questions.add(new Question("Bản nhạc sonate ánh trăng là bản nhạc huyền thoại của nghệ sĩ nào?", new String[]{"Beethoven", "Paganini", "Mozart", "Brahms"}, 0));
             questions.add(new Question("Đâu là bộ phim có doanh thu cao nhất mọi thời đại?", new String[]{"Avenger:End Game", "Jurassic World", "Titanic", "Avatar"}, 3));
         }
 
@@ -138,9 +143,14 @@ public class MainActivity3 extends AppCompatActivity {
         int selectedAnswerIndex = answerRadioGroup.indexOfChild(findViewById(answerRadioGroup.getCheckedRadioButtonId()));
 
         if (selectedAnswerIndex == currentQuestion.getCorrectAnswerIndex()) {
+                if((someth==1||someth==3&&someth==5||someth==7)) {
+
+                    countRightAnswer+=2;
+                }
+                else countRightAnswer++;
+
             // Chuyển sang câu hỏi tiếp theo nếu trả lời đúng
-            countRightAnswer++;
-//            txtCount =(String) currentQuestion.toString();
+
             currentQuestionIndex++;
             answerRadioGroup.clearCheck();
             displayQuestion(currentQuestionIndex);

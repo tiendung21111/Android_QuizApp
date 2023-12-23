@@ -50,47 +50,49 @@ public class MainActivity2 extends AppCompatActivity {
             public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
                 ChuDe chuDe =(ChuDe) adapter.getItem(position);
                 a[0] = chuDe.getId();
+                if(a[0] == 1 ){
+
+                    if((sw1.isChecked())){
+                        h=1;
+                    }
+                    else h =2;
+
+                }
+                if(a[0] == 2 ){
+
+                    if((sw1.isChecked())){
+                        h=3;
+                    }
+                    else h = 4;
+
+                }
+                if(a[0] == 3 ){
+
+                    if((sw1.isChecked())){
+                        h=5;
+                    }
+                    else h = 6;
+
+                }
+                if(a[0] == 4 ){
+
+                    if((sw1.isChecked())){
+                        h=7;
+                    }
+                    else h = 8;
+
+                }
+                Intent intent = new Intent(MainActivity2.this, MainActivity3.class);
+                intent.putExtra("th", h);
+                startActivity(intent);
 
             }
         });
 
         btnDsCauHoi.setOnClickListener(View -> {
-
-            if(a[0] == 1 ){
-
-                if((sw1.isChecked())){
-                    h=1;
-                }
-                else h =2;
-
-            }
-            if(a[0] == 2 ){
-
-                if((sw1.isChecked())){
-                    h=3;
-                }
-                else h = 4;
-
-            }
-            if(a[0] == 3 ){
-
-                if((sw1.isChecked())){
-                    h=5;
-                }
-                else h = 6;
-
-            }
-            if(a[0] == 4 ){
-
-                if((sw1.isChecked())){
-                    h=7;
-                }
-                else h = 8;
-
-            }
-            Intent intent = new Intent(MainActivity2.this, MainActivity3.class);
-            intent.putExtra("th", h);
+            Intent intent = new Intent(MainActivity2.this, MainActivity5.class);
             startActivity(intent);
+
 
         });
 

@@ -117,8 +117,8 @@ public class MainActivity3 extends AppCompatActivity {
                 questions.add(new Question("Khu vực nào trên thế giới chịu ảnh hưởng nặng nề từ hiện tượng ô nhiễm không khí?", new String[]{"Scandinavia", "Amazon", "Ruhr Valley", "Himalaya"}, 2));
                 questions.add(new Question("Đặc điểm nào của sa mạc châu Phi làm nó trở thành một trong những môi trường khắc nghiệt nhất trên Trái Đất?", new String[]{"Thực vật xanh quanh năm", "Nhiệt độ cao và khô", "Lượng mưa hàng năm lớn", "Đất màu đỏ chứa nhiều dưỡng"}, 3));
             } else if (ths1FromM4 == 10) {
-                questions.add(new Question("Dòng sông nào là con sông dài nhất thế giới?", new String[]{"Sông Nile", "Sông Amazon", "Sông Mekong", "Sông Mississippi"}, 1));
-                questions.add(new Question("Thành phố nào được biết đến với tên gọi Thủ đô ánh sáng?", new String[]{"Paris", "New York", "Tokyo", "Seoul"}, 2));
+                questions.add(new Question("Dòng sông nào là con sông dài nhất thế giới?", new String[]{"Sông Nile", "Sông Amazon", "Sông Mekong", "Sông Mississippi"}, 0));
+                questions.add(new Question("Thành phố nào được biết đến với tên gọi Thủ đô ánh sáng?", new String[]{"Paris", "New York", "Tokyo", "Seoul"}, 0));
                 questions.add(new Question("Dãy núi nào tạo thành ranh giới tự nhiên giữa châu Âu và châu Á?", new String[]{"Dãy Alps", "Dãy Ural", "Dãy Carpathian", "Dãy Andes"}, 1));
             } else if (ths1FromM4 == 11) {
                 questions.add(new Question("Sự kiện nào đã đánh dấu sự kết thúc của Chiến tranh thế giới thứ nhất?", new String[]{"Hiệp ước Versailles", "Hiệp ước Munich", "Hiệp ước Rapallo", "Hiệp ước Trianon"}, 0));

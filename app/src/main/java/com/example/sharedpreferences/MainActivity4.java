@@ -15,6 +15,9 @@ public class MainActivity4 extends AppCompatActivity {
     private int ths2;
     private int tmpM4;
 
+    private int score2;
+    private int totalScore = 0;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -29,10 +32,7 @@ public class MainActivity4 extends AppCompatActivity {
         Button hoan_thanh= findViewById(R.id.hoan_thanh);
         Button choi_lai= findViewById(R.id.choi_lai);
         Button share = findViewById(R.id.share);
-        hoan_thanh.setOnClickListener(v -> {
-            Intent intent = new Intent(MainActivity4.this,MainActivity.class);
-            startActivity(intent);
-        });
+
         choi_lai.setOnClickListener(v -> {
             Intent intent = new Intent(MainActivity4.this,MainActivity3.class);
             startActivity(intent);
@@ -55,18 +55,31 @@ public class MainActivity4 extends AppCompatActivity {
         Intent intent2 = getIntent();
         int ths1 = intent2.getIntExtra("thsFromM3",0 );
         int tmp1 = intent2.getIntExtra("tmp", 0);
+        int scoreFromM3 = intent2.getIntExtra("score1", 0);
         ths2 = ths1+8;
         tmpM4 = tmp1;
+        score2 = scoreFromM3;
 
         Button btnChoiLai = findViewById(R.id.choi_lai);
         btnChoiLai.setOnClickListener(View -> {
 
             Intent intent = new Intent(MainActivity4.this, MainActivity3.class);
+            intent.putExtra("score2", score2);
             intent.putExtra("ths1FromM4", ths2);
             intent.putExtra("tmp1", tmpM4);
             startActivity(intent);
 
         });
+        Intent intent3 = getIntent();
+        int scoreFromM3_1 = intent3.getIntExtra("score3", 0);
+        totalScore = scoreFromM3_1+ scoreFromM3;
+
+        hoan_thanh.setOnClickListener(v -> {
+            Intent intent = new Intent(MainActivity4.this,MainActivity.class);
+            intent.putExtra("totalScore", totalScore);
+            startActivity(intent);
+        });
+
 
 
 

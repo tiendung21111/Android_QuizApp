@@ -44,8 +44,9 @@ public class MainActivity3 extends AppCompatActivity {
     private int tmp = 0;
 
     private int tmp1;
+    private int score1 = 0;
 
-
+    private int scoreFromM4;
 
 
 
@@ -61,13 +62,14 @@ public class MainActivity3 extends AppCompatActivity {
 
         // Tạo các câu hỏi và đáp án
         questions = new ArrayList<>();
-
         Intent intent1 = getIntent();
         int ths = intent1.getIntExtra("th", 0);
         ths1=ths;
         Intent intent2 = getIntent();
         ths1FromM4 = intent2.getIntExtra("ths1FromM4", 0);
         tmp1 = intent2.getIntExtra("tmp1", 0);
+        int score3 = intent2.getIntExtra("score2", 0);
+        scoreFromM4 =score3;
 
 
 
@@ -172,6 +174,8 @@ public class MainActivity3 extends AppCompatActivity {
             // Hiển thị màn hình 4 nếu đã trả lời hết các câu hỏi
             tmp++;
             Intent intent = new Intent(MainActivity3.this, MainActivity4.class);
+            intent.putExtra("score3", scoreFromM4);
+            intent.putExtra("score1", score1);
             intent.putExtra("tmp", tmp);
             intent.putExtra("thsFromM3", ths1);
             intent.putExtra("count", countRightAnswer);
@@ -187,7 +191,12 @@ public class MainActivity3 extends AppCompatActivity {
 
         if (selectedAnswerIndex == currentQuestion.getCorrectAnswerIndex()) {
 
-                countRightAnswer++;
+            countRightAnswer++;
+                if(ths1%2==0) {
+                    score1+=1;
+                }
+                else score1+=2;
+
 
 
 
@@ -201,6 +210,8 @@ public class MainActivity3 extends AppCompatActivity {
             // Hiển thị màn hình 4 nếu trả lời sai
             tmp++;
             Intent intent = new Intent(MainActivity3.this, MainActivity4.class);
+            intent.putExtra("score3", scoreFromM4);
+            intent.putExtra("score1", score1);
             intent.putExtra("tmp", tmp);
             intent.putExtra("thsFromM3", ths1);
             intent.putExtra("count", countRightAnswer);

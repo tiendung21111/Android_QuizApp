@@ -9,6 +9,7 @@ import android.widget.AdapterView;
 import android.widget.Button;
 import android.widget.ListView;
 import android.widget.Switch;
+import android.widget.TextView;
 
 import java.util.ArrayList;
 
@@ -23,6 +24,13 @@ public class MainActivity2 extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main2);
+
+        Intent intent1 = getIntent();
+        int finalTotalScore = intent1.getIntExtra("finalScore", 0);
+        TextView txtFianlScore = findViewById(R.id.total_score);
+        txtFianlScore.setText(String.valueOf(finalTotalScore) + " pts");
+
+
 
         danhSach = new ArrayList<>();
         danhSach.add(new ChuDe(R.drawable.dialy, "Địa Lý", "Những câu hỏi xoay quanh địa lý Việt Nam", 1));

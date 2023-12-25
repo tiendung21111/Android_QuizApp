@@ -44,7 +44,7 @@ public class MainActivity4 extends AppCompatActivity {
 
         SharedPreferences sharedPref = getSharedPreferences("PREF", Context.MODE_PRIVATE);
         SharedPreferences.Editor editor = sharedPref.edit();
-        editor.putInt("TotalScore",sharedPref.getInt("TotalScore",score2)+score2);
+        editor.putInt("TotalScore",sharedPref.getInt("TotalScore",0)+score2);
         editor.apply();
 
         choi_lai.setOnClickListener(v -> {

@@ -1,52 +1,93 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:orientation="vertical"
     tools:context=".MainActivity"
-    android:background="#F3EDFD">
+    >
 
-    <TextView
-        android:id="@+id/textView2"
+
+    <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:gravity="center"
-        android:text="GoQuiz"
-        android:textSize="50dp"
-        android:textStyle="bold"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.125" />
+        android:layout_height="match_parent"
+        android:layout_margin="20dp"
+        android:background="@color/white"
+        android:orientation="vertical"
+        >
 
-    <TextView
-        android:gravity="left"
-        android:id="@+id/textView"
-        android:layout_width="0dp"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="50dp"
-        android:layout_marginEnd="50dp"
-        android:text="Chào mừng bạn đến với trò chơi GoQuiz.Trong trò chơi này, bạn  trả lời các câu hỏi theo các chủ đề: Lịch sử, Địa lý, Khoa học, Nghệ thuật,...Bạn có thể trả lời các câu hỏi ở 2 cấp độ là dễ và khó.Thành tích của bạn giữa các lần chơi sẽ được lưu lại."
-        android:textSize="20dp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="1.0"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView2"
-        app:layout_constraintVertical_bias="0.267" />
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="640dp"
+            >
 
-    <Button
-        android:id="@+id/BtnStart"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Start"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView" />
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="GoQuiz"
+                    android:textSize="22dp"
+                    android:layout_gravity="center"
+                    android:textStyle="bold"
+                    android:layout_margin="15dp"
+                    android:paddingLeft="7dp"
+                    />
+
+                <TextView
+
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:paddingLeft="15dp"
+                    android:text="All users agree and undertake to use the service in accordance with the provisions of the Terms and Conditions.
+            Users may not use the Services unless they agree to such Terms and Conditions.
+            This agreement/result is valid and cannot be changed.
+By using and/or continuing to use the Service, the user is deemed to agree to the Terms and Conditions as well as any changes, modifications and additions to the Terms and Conditions.
+ This Agreement is valid and cannot be changed.
+
+If there are specific Terms and Conditions for the Services, or individual Services, the user also agrees to contribute to the separate Terms and Conditions as well as to the General Terms and Conditions. Special Terms and Conditions for services take effect immediately from the moment they are posted and displayed on the website.
+
+The User acknowledges and agrees that no joint venture, partnership, employment relationship or agency relationship exists between the User and the Company arising from the Terms and Conditions or the User's employment. Use the Company's Services.
+ The Company implements these Terms and Conditions in accordance with applicable laws and nothing in these Terms and Conditions shall impede the Company's right to comply with government regulations or requirements, protect defense agencies, law enforcement agencies, as well as other competent State authorities related to users using the Company's Services or information that we receive or obtain from the use of the Services. You's service
+"
+                    android:textSize="18dp" />
+
+            </LinearLayout>
 
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+
+        </ScrollView>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:paddingTop="5dp"
+            android:gravity="center">
+
+            <Button
+                android:id="@+id/BtnStart"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Start"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.498"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.918"
+                android:layout_gravity="center"
+
+
+                />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

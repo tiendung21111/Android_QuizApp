@@ -12,6 +12,9 @@ import android.widget.Switch;
 import android.widget.TextView;
 
 import java.util.ArrayList;
+import android.content.Context;
+import android.content.SharedPreferences;
+
 
 public class MainActivity2 extends AppCompatActivity {
 
@@ -29,9 +32,11 @@ public class MainActivity2 extends AppCompatActivity {
 
         Intent intent1 = getIntent();
         int finalTotalScore = intent1.getIntExtra("finalScore", 0);
-        TextView txtFianlScore = findViewById(R.id.total_score);
-        txtFianlScore.setText(String.valueOf(finalTotalScore) + " pts");
+        TextView txtFinalScore = findViewById(R.id.total_score);
 
+
+        SharedPreferences sharedPref = getSharedPreferences("PREF", Context.MODE_PRIVATE);
+        txtFinalScore.setText(sharedPref.getInt("TotalScore", 0) + " pts");
 
 
         danhSach = new ArrayList<>();

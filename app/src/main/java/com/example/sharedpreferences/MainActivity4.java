@@ -9,6 +9,8 @@ import android.os.Bundle;
 import android.widget.Button;
 import android.widget.TextView;
 import android.widget.Toast;
+import android.content.Context;
+import android.content.SharedPreferences;
 
 public class MainActivity4 extends AppCompatActivity {
 
@@ -40,10 +42,16 @@ public class MainActivity4 extends AppCompatActivity {
         tmpM4 = tmp1;
         score2 = scoreFromM3;
 
+        SharedPreferences sharedPref = getSharedPreferences("PREF", Context.MODE_PRIVATE);
+        SharedPreferences.Editor editor = sharedPref.edit();
+        editor.putInt("TotalScore",sharedPref.getInt("TotalScore",score2)+score2);
+        editor.apply();
+
         choi_lai.setOnClickListener(v -> {
             Intent intent = new Intent(MainActivity4.this,MainActivity3.class);
             startActivity(intent);
         });
+
         share.setOnClickListener(v -> {
             Intent sendIntent = new Intent();
             sendIntent.setAction(Intent.ACTION_SEND);

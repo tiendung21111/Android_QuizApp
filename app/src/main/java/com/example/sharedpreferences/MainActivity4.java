@@ -32,6 +32,13 @@ public class MainActivity4 extends AppCompatActivity {
         Button hoan_thanh= findViewById(R.id.hoan_thanh);
         Button choi_lai= findViewById(R.id.choi_lai);
         Button share = findViewById(R.id.share);
+        Intent intent2 = getIntent();
+        int ths1 = intent2.getIntExtra("thsFromM3",0 );
+        int tmp1 = intent2.getIntExtra("tmp", 0);
+        int scoreFromM3 = intent2.getIntExtra("score1", 0);
+        ths2 = ths1+8;
+        tmpM4 = tmp1;
+        score2 = scoreFromM3;
 
         choi_lai.setOnClickListener(v -> {
             Intent intent = new Intent(MainActivity4.this,MainActivity3.class);
@@ -40,7 +47,7 @@ public class MainActivity4 extends AppCompatActivity {
         share.setOnClickListener(v -> {
             Intent sendIntent = new Intent();
             sendIntent.setAction(Intent.ACTION_SEND);
-            sendIntent.putExtra(Intent.EXTRA_TEXT, "Tôi đã đạt được " + String.valueOf(rightAs)+ " điểm trong ứng dụng Q&A");
+            sendIntent.putExtra(Intent.EXTRA_TEXT, "Tôi đã đạt được " + String.valueOf(score2)+ " điểm trong ứng dụng Q&A");
             sendIntent.setType("text/plain");
             if (sendIntent.resolveActivity(getPackageManager()) != null) {
                 startActivity(sendIntent);
@@ -52,13 +59,7 @@ public class MainActivity4 extends AppCompatActivity {
 
         });
 
-        Intent intent2 = getIntent();
-        int ths1 = intent2.getIntExtra("thsFromM3",0 );
-        int tmp1 = intent2.getIntExtra("tmp", 0);
-        int scoreFromM3 = intent2.getIntExtra("score1", 0);
-        ths2 = ths1+8;
-        tmpM4 = tmp1;
-        score2 = scoreFromM3;
+
 
         Button btnChoiLai = findViewById(R.id.choi_lai);
         btnChoiLai.setOnClickListener(View -> {

@@ -38,8 +38,9 @@ public class LQuestionAdapter extends BaseAdapter {
         Question question = listQuestion.get(position);
         //hien thi chu de va do kho cua no
         ((TextView)viewItem.findViewById(R.id.chu_de)).setText(question.getChu_de());
-        ((TextView)viewItem.findViewById(R.id.do_kho)).setText(String.valueOf(question.getDo_kho()));
+        ((TextView)viewItem.findViewById(R.id.do_kho)).setText(question.getDo_kho());
         ((TextView)viewItem.findViewById(R.id.review_cau_hoi)).setText(question.getQuestion());
+        ((TextView)viewItem.findViewById(R.id.stt)).setText("STT: "+ String.valueOf(question.getId()));
         return viewItem;
     }
 }

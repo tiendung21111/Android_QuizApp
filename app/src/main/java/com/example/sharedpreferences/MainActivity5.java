@@ -78,67 +78,67 @@ public class MainActivity5 extends AppCompatActivity {
         questionList.add(new Question("Địa lý","dễ",8,"Giờ Việt Nam theo múi giờ nào?", "GMT+7", "GMT+8", "GMT+11", "GMT+12","GMT+7"));
         questionList.add(new Question("Địa lý","dễ",9,"Vịnh nào Việt Nam lot top 7 kỳ quan thế giới?","Cát Bà", "Côtô", "Hạ Long", "Lan Hạ","Hạ Long"));
 
-        questionList.add(new Question("Địa lý","dễ",9,"Dòng sông nào là con sông dài nhất thế giới?", "Sông Nile", "Sông Amazon", "Sông Mekong", "Sông Mississippi","Sông Nile"));
-        questionList.add(new Question("Địa lý","dễ",9,"Thành phố nào được biết đến với tên gọi Thủ đô ánh sáng?", "Paris", "New York", "Tokyo", "Seoul","Paris"));
-        questionList.add(new Question("Địa lý","dễ",9,"Dãy núi nào tạo thành ranh giới tự nhiên giữa châu Âu và châu Á?", "Dãy Alps", "Dãy Ural", "Dãy Carpathian", "Dãy Andes","Dãy Ural"));
+        questionList.add(new Question("Địa lý","dễ",10,"Dòng sông nào là con sông dài nhất thế giới?", "Sông Nile", "Sông Amazon", "Sông Mekong", "Sông Mississippi","Sông Nile"));
+        questionList.add(new Question("Địa lý","dễ",11,"Thành phố nào được biết đến với tên gọi Thủ đô ánh sáng?", "Paris", "New York", "Tokyo", "Seoul","Paris"));
+        questionList.add(new Question("Địa lý","dễ",12,"Dãy núi nào tạo thành ranh giới tự nhiên giữa châu Âu và châu Á?", "Dãy Alps", "Dãy Ural", "Dãy Carpathian", "Dãy Andes","Dãy Ural"));
 
 
 
-        questionList.add(new Question("Lịch sử","khó",7,"Trong lịch sử, Nhà Trần đã 3 lần đánh thắng quân xâm lược nào?", "Nam Hán", "Nhà Thanh", "Nhà Tần", "Mông Nguyên","Nhà Tần"));
-        questionList.add(new Question("Lịch sử","khó",8,"Quốc hiệu Việt Nam dưới thời nhà Hồ?", "Đại Ngu", "Đại Việt", "Văn Lang", "Âu Lac","Đại Ngu"));
-        questionList.add(new Question("Lịch sử","khó",9,"Vị vua cuối cùng của chế độ quân chủ", "Gia Long", "Bảo Đại", "Duy Tân", "Hàm Nghi","Bảo Đại"));
+        questionList.add(new Question("Lịch sử","khó",13,"Trong lịch sử, Nhà Trần đã 3 lần đánh thắng quân xâm lược nào?", "Nam Hán", "Nhà Thanh", "Nhà Tần", "Mông Nguyên","Nhà Tần"));
+        questionList.add(new Question("Lịch sử","khó",14,"Quốc hiệu Việt Nam dưới thời nhà Hồ?", "Đại Ngu", "Đại Việt", "Văn Lang", "Âu Lac","Đại Ngu"));
+        questionList.add(new Question("Lịch sử","khó",15,"Vị vua cuối cùng của chế độ quân chủ", "Gia Long", "Bảo Đại", "Duy Tân", "Hàm Nghi","Bảo Đại"));
 
-        questionList.add(new Question("Lịch sử","khó",9,"Sự kiện nào đã đánh dấu sự kết thúc của Chiến tranh thế giới thứ nhất?","Hiệp ước Versailles", "Hiệp ước Munich", "Hiệp ước Rapallo", "Hiệp ước Trianon","Hiệp ước Versailles"));
-        questionList.add(new Question("Lịch sử","khó",9,"Ai là người đầu tiên đặt chân lên Mặt Trăng?", "Yuri Gagarin", "Neil Armstrong", "Buzz Aldrin", "John Glenn","Neil Armstrong"));
-        questionList.add(new Question("Lịch sử","khó",9,"Sự kiện nào đã gắn liền với câu nói Let them eat cake Hãy để họ ăn bánh?", "Cách mạng Pháp", "Chiến tranh thế giới thứ nhất", "Cuộc Cách mạng Nga", "Nội chiến Hoa Kỳ","Cách mạng Pháp"));
-
-
-
-        questionList.add(new Question("Lịch sử","dễ",10,"Chiến dịch Điện Biên Phủ kéo dài bao nhiêu ngày đêm?", "48", "49", "56", "57","56"));
-        questionList.add(new Question("Lịch sử","dễ",11,"Ai là hoàng đế đầu tiên của Việt Nam?", "Vua Hùng", "Đinh Bộ Lĩnh", "Ngô Quyền", "Lý Nam Đế","Lý Nam Đế"));
-        questionList.add(new Question("Lịch sử","dễ",12,"Việt Nâm hoàn toàn giải phóng năm nào?", "1945", "1952", "1972", "1979","1972"));
-
-        questionList.add(new Question("Lịch sử","dễ",12,"Năm 1492, Christopher Columbus khám phá ra đất nước nào?", "India", "China", "Mỹ", "Nga","Mỹ"));
-        questionList.add(new Question("Lịch sử","dễ",12,"Ai là người đứng đầu của Đồng minh trong Thế chiến II?", "Adolf Hitler", "Winston Churchill", "Joseph Stalin", "Franklin D. Roosevelt","Winston Churchill"));
-        questionList.add(new Question("Lịch sử","dễ",12,"Cuộc Cách mạng Công nghiệp bắt đầu ở quốc gia nào?", "Anh", "Pháp", "Đức", "Mỹ","Anh"));
-
-
-        questionList.add(new Question("Tài chính","khó",13,"Đâu là 1 trong 4 con rồng kinh tế của châu á?", "Việt Nam", "Trung Quốc", "Hong Kong", "Nhật Bản","Hong Kong"));
-        questionList.add(new Question("Tài chính","khó",14,"Đồng tiền nước nào có giá trị cao nhất thế giới??","Mỹ", "Anh", "Kuwait", "Nhật","Kuwait"));
-        questionList.add(new Question("Tài chính","khó",15,"Đâu là trung tâm tài chính thế giới ?", "Hong Kong", "Đài loan", "New York", "Wasington","New York"));
-
-        questionList.add(new Question("Tài chính","khó",15,"Khái niệm Quantitative Easing (Giãn cách Số liệu) liên quan đến phương thức nào của ngân hàng trung ương để duy trì nền kinh tế?","Tăng lãi suất", "Giảm cung tiền tệ", "Tăng cung tiền tệ", "Giảm lãi suất","Tăng cung tiền tệ"));
-        questionList.add(new Question("Tài chính","khó",15,"Khái niệm \"Ponzi Scheme\" (Kế hoạch Ponzi) liên quan đến gì trong lĩnh vực tài chính?","Quảng cáo và tiếp thị", "Giao dịch chứng khoán", "Thuế thu nhập cá nhân", "Chiến lược đầu tư giao dịch hối đoái","Quảng cáo và tiếp thị"));
-        questionList.add(new Question("Tài chính","khó",15,"Đồng tiền ảo nào được sử dụng như một phương tiện thanh toán trong thương mại quốc tế và không thuộc quy định của bất kỳ quốc gia nào?", "Bitcoin", "Ethereum", "Ripple", "Litecoin","Bitcoin"));
+        questionList.add(new Question("Lịch sử","khó",16,"Sự kiện nào đã đánh dấu sự kết thúc của Chiến tranh thế giới thứ nhất?","Hiệp ước Versailles", "Hiệp ước Munich", "Hiệp ước Rapallo", "Hiệp ước Trianon","Hiệp ước Versailles"));
+        questionList.add(new Question("Lịch sử","khó",17,"Ai là người đầu tiên đặt chân lên Mặt Trăng?", "Yuri Gagarin", "Neil Armstrong", "Buzz Aldrin", "John Glenn","Neil Armstrong"));
+        questionList.add(new Question("Lịch sử","khó",18,"Sự kiện nào đã gắn liền với câu nói Let them eat cake Hãy để họ ăn bánh?", "Cách mạng Pháp", "Chiến tranh thế giới thứ nhất", "Cuộc Cách mạng Nga", "Nội chiến Hoa Kỳ","Cách mạng Pháp"));
 
 
 
-        questionList.add(new Question("Tài chính","dễ",16,"Đâu là nước có nền kinh tế phát triển nhất thế giới?", "Mỹ", "Đức", "Trung Quốc", "Nhật Bản","Mỹ"));
-        questionList.add(new Question("Tài chính","dễ",17,"Việt Nam có nền kinh tế phát triển thứ mấy Đông Nam Á?", "1", "2", "3", "4","4"));
-        questionList.add(new Question("Tài chính","dễ",18,"Đâu là ti phú giàu nhất Thế Giới?", "Elon Musk", "Jeff Bezos", "Bill Gates", "Warren Buffet","Elon Musk"));
+        questionList.add(new Question("Lịch sử","dễ",19,"Chiến dịch Điện Biên Phủ kéo dài bao nhiêu ngày đêm?", "48", "49", "56", "57","56"));
+        questionList.add(new Question("Lịch sử","dễ",20,"Ai là hoàng đế đầu tiên của Việt Nam?", "Vua Hùng", "Đinh Bộ Lĩnh", "Ngô Quyền", "Lý Nam Đế","Lý Nam Đế"));
+        questionList.add(new Question("Lịch sử","dễ",21,"Việt Nâm hoàn toàn giải phóng năm nào?", "1945", "1952", "1972", "1979","1972"));
 
-        questionList.add(new Question("Tài chính","dễ",18,"Khái niệm \"lãi suất\" trong tài chính được định nghĩa như thế nào?", "Phí mở tài khoản ngân hàng", "Tỉ lệ giữa thu nhập và chi phí", "Phần trăm tiền lãi hàng năm", "Giá trị của một đồng tiền","Phần trăm tiền lãi hàng năm"));
-        questionList.add(new Question("Tài chính","dễ",18,"Định nghĩa \"chứng khoán\" là gì trong ngữ cảnh tài chính?", "Chứng chỉ khen ngợi từ ngân hàng", "Tài sản có thể chuyển đổi thành tiền mặt", "Giấy tờ chứng minh nhân dân", "Chứng chỉ biểu hiện quyền sở hữu trong công ty","Chứng chỉ biểu hiện quyền sở hữu trong công ty"));
-        questionList.add(new Question("Tài chính","dễ",18,"Thu nhập chủ yếu của chính phủ đến từ đâu?", "Tiền thuế thu nhập cá nhân", "Doanh thu từ bán dầu", "Thuế VAT (Thuế giá trị gia tăng)", "Tiền phạt giao thông","Doanh thu từ bán dầu"));
-
-
-
-        questionList.add(new Question("Nghệ thuật","khó",19,"Bức tranh mona lisa của họa sĩ nào?", "Van Gogh", "Manat", "Picasso", "Leonardo da vinci","Leonardo da vinci"));
-        questionList.add(new Question("Nghệ thuật","khó",20,"Bài hát “Tình ca”- Hoàng Việt nói đến mùa nào trong năm?", "Mùa Xuân", "Mùa Hạ", "Mùa Thu", "Mùa Đông","Mùa Xuân"));
-        questionList.add(new Question("Nghệ thuật","khó",21,"Lễ hội Canaval là lễ hội nổi tiếng ở quốc gia nào?", "Brazil", "Ý", "Pháp", "Anh","Brazil"));
-
-        questionList.add(new Question("Nghệ thuật","khó",21,"Làm thế nào nghệ sĩ có thể truyền đạt cảm xúc sâu sắc và phức tạp thông qua tác phẩm của mình?", "Sử dụng màu sắc đa dạng", "Tạo ra hình ảnh đơn giản", "Tránh sự phức tạp", "Sử dụng chỉ một loại chất liệu","Sử dụng màu sắc đa dạng"));
-        questionList.add(new Question("Nghệ thuật","khó",21,"Làm thế nào nghệ sĩ có thể thách thức quan điểm truyền thống và tạo ra điều mới mẻ, độc đáo trong nghệ thuật của họ?", "Tuân theo quy tắc cũ", "Sử dụng phong cách cổ điển", "Đổi mới và tìm kiếm sự độc đáo", "Giữ nguyên quy tắc truyền thống","Sử dụng phong cách cổ điển"));
-        questionList.add(new Question("Nghệ thuật","khó",21,"Tại sao một số tác phẩm nghệ thuật được đánh giá cao, trong khi những tác phẩm khác với chất lượng tương đương lại không được công nhận?", "Do sự may mắn", "Ảnh hưởng của quảng bá", "Sự độc đáo và sáng tạo", "Tuân theo nguyên tắc truyền thống","Sự độc đáo và sáng tạo"));
+        questionList.add(new Question("Lịch sử","dễ",22,"Năm 1492, Christopher Columbus khám phá ra đất nước nào?", "India", "China", "Mỹ", "Nga","Mỹ"));
+        questionList.add(new Question("Lịch sử","dễ",23,"Ai là người đứng đầu của Đồng minh trong Thế chiến II?", "Adolf Hitler", "Winston Churchill", "Joseph Stalin", "Franklin D. Roosevelt","Winston Churchill"));
+        questionList.add(new Question("Lịch sử","dễ",24,"Cuộc Cách mạng Công nghiệp bắt đầu ở quốc gia nào?", "Anh", "Pháp", "Đức", "Mỹ","Anh"));
 
 
-        questionList.add(new Question("Nghệ thuật","dễ",22,"Van Gogh là một họa sĩ nước nào?", "Ý", "Hà Lan", "Pháp", "Thụy Sĩ","Warren Buffet"));
-        questionList.add(new Question("Nghệ thuật","dễ",23,"Bản nhạc sonate là bản nhạc huyền thoại của nghệ sĩ nào?", "Beethoven", "Paganini", "Mozart", "Brahms","Beethoven"));
-        questionList.add(new Question("Nghệ thuật","dễ",24,"Đâu là bộ phim có doanh thu cao nhất mọi thời đại?", "Avenger:End Game", "Jurassic World", "Titanic", "Avatar","Avatar"));
+        questionList.add(new Question("Tài chính","khó",25,"Đâu là 1 trong 4 con rồng kinh tế của châu á?", "Việt Nam", "Trung Quốc", "Hong Kong", "Nhật Bản","Hong Kong"));
+        questionList.add(new Question("Tài chính","khó",26,"Đồng tiền nước nào có giá trị cao nhất thế giới??","Mỹ", "Anh", "Kuwait", "Nhật","Kuwait"));
+        questionList.add(new Question("Tài chính","khó",27,"Đâu là trung tâm tài chính thế giới ?", "Hong Kong", "Đài loan", "New York", "Wasington","New York"));
 
-        questionList.add(new Question("Nghệ thuật","dễ",24,"Nghệ thuật có thể là một phương tiện hiệu quả để thể hiện và chia sẻ cảm xúc. Bạn nghĩ sao về điều này?", "Không liên quan", "Đồng ý", "Chưa rõ", "Phản đối","Đồng ý"));
-        questionList.add(new Question("Nghệ thuật","dễ",24,"Làm thế nào nghệ sĩ có thể sử dụng màu sắc và ánh sáng để tạo ra ảnh hưởng tích cực trong tác phẩm của họ?", "Tránh sử dụng màu sắc", "Tăng cường ánh sáng mạnh mẽ", "Sử dụng màu sắc phù hợp", "Chỉ sử dụng màu đen trắng","Sử dụng màu sắc phù hợp"));
-        questionList.add(new Question("Nghệ thuật","dễ",24,"Bạn có thể mô tả sự khác biệt giữa nghệ thuật truyền thống và nghệ thuật hiện đại, và cái nào bạn thích hơn? Tại sao?", "Không có sự khác biệt", "Nghệ thuật hiện đại táo bạo hơn", "Nghệ thuật truyền thống tốt hơn", "Cả hai đều có nhược điểm","Nghệ thuật hiện đại táo bạo hơn"));
+        questionList.add(new Question("Tài chính","khó",28,"Khái niệm Quantitative Easing (Giãn cách Số liệu) liên quan đến phương thức nào của ngân hàng trung ương để duy trì nền kinh tế?","Tăng lãi suất", "Giảm cung tiền tệ", "Tăng cung tiền tệ", "Giảm lãi suất","Tăng cung tiền tệ"));
+        questionList.add(new Question("Tài chính","khó",29,"Khái niệm \"Ponzi Scheme\" (Kế hoạch Ponzi) liên quan đến gì trong lĩnh vực tài chính?","Quảng cáo và tiếp thị", "Giao dịch chứng khoán", "Thuế thu nhập cá nhân", "Chiến lược đầu tư giao dịch hối đoái","Quảng cáo và tiếp thị"));
+        questionList.add(new Question("Tài chính","khó",30,"Đồng tiền ảo nào được sử dụng như một phương tiện thanh toán trong thương mại quốc tế và không thuộc quy định của bất kỳ quốc gia nào?", "Bitcoin", "Ethereum", "Ripple", "Litecoin","Bitcoin"));
+
+
+
+        questionList.add(new Question("Tài chính","dễ",31,"Đâu là nước có nền kinh tế phát triển nhất thế giới?", "Mỹ", "Đức", "Trung Quốc", "Nhật Bản","Mỹ"));
+        questionList.add(new Question("Tài chính","dễ",32,"Việt Nam có nền kinh tế phát triển thứ mấy Đông Nam Á?", "1", "2", "3", "4","4"));
+        questionList.add(new Question("Tài chính","dễ",33,"Đâu là ti phú giàu nhất Thế Giới?", "Elon Musk", "Jeff Bezos", "Bill Gates", "Warren Buffet","Elon Musk"));
+
+        questionList.add(new Question("Tài chính","dễ",34,"Khái niệm \"lãi suất\" trong tài chính được định nghĩa như thế nào?", "Phí mở tài khoản ngân hàng", "Tỉ lệ giữa thu nhập và chi phí", "Phần trăm tiền lãi hàng năm", "Giá trị của một đồng tiền","Phần trăm tiền lãi hàng năm"));
+        questionList.add(new Question("Tài chính","dễ",35,"Định nghĩa \"chứng khoán\" là gì trong ngữ cảnh tài chính?", "Chứng chỉ khen ngợi từ ngân hàng", "Tài sản có thể chuyển đổi thành tiền mặt", "Giấy tờ chứng minh nhân dân", "Chứng chỉ biểu hiện quyền sở hữu trong công ty","Chứng chỉ biểu hiện quyền sở hữu trong công ty"));
+        questionList.add(new Question("Tài chính","dễ",36,"Thu nhập chủ yếu của chính phủ đến từ đâu?", "Tiền thuế thu nhập cá nhân", "Doanh thu từ bán dầu", "Thuế VAT (Thuế giá trị gia tăng)", "Tiền phạt giao thông","Doanh thu từ bán dầu"));
+
+
+
+        questionList.add(new Question("Nghệ thuật","khó",37,"Bức tranh mona lisa của họa sĩ nào?", "Van Gogh", "Manat", "Picasso", "Leonardo da vinci","Leonardo da vinci"));
+        questionList.add(new Question("Nghệ thuật","khó",38,"Bài hát “Tình ca”- Hoàng Việt nói đến mùa nào trong năm?", "Mùa Xuân", "Mùa Hạ", "Mùa Thu", "Mùa Đông","Mùa Xuân"));
+        questionList.add(new Question("Nghệ thuật","khó",39,"Lễ hội Canaval là lễ hội nổi tiếng ở quốc gia nào?", "Brazil", "Ý", "Pháp", "Anh","Brazil"));
+
+        questionList.add(new Question("Nghệ thuật","khó",40,"Làm thế nào nghệ sĩ có thể truyền đạt cảm xúc sâu sắc và phức tạp thông qua tác phẩm của mình?", "Sử dụng màu sắc đa dạng", "Tạo ra hình ảnh đơn giản", "Tránh sự phức tạp", "Sử dụng chỉ một loại chất liệu","Sử dụng màu sắc đa dạng"));
+        questionList.add(new Question("Nghệ thuật","khó",41,"Làm thế nào nghệ sĩ có thể thách thức quan điểm truyền thống và tạo ra điều mới mẻ, độc đáo trong nghệ thuật của họ?", "Tuân theo quy tắc cũ", "Sử dụng phong cách cổ điển", "Đổi mới và tìm kiếm sự độc đáo", "Giữ nguyên quy tắc truyền thống","Sử dụng phong cách cổ điển"));
+        questionList.add(new Question("Nghệ thuật","khó",42,"Tại sao một số tác phẩm nghệ thuật được đánh giá cao, trong khi những tác phẩm khác với chất lượng tương đương lại không được công nhận?", "Do sự may mắn", "Ảnh hưởng của quảng bá", "Sự độc đáo và sáng tạo", "Tuân theo nguyên tắc truyền thống","Sự độc đáo và sáng tạo"));
+
+
+        questionList.add(new Question("Nghệ thuật","dễ",43,"Van Gogh là một họa sĩ nước nào?", "Ý", "Hà Lan", "Pháp", "Thụy Sĩ","Warren Buffet"));
+        questionList.add(new Question("Nghệ thuật","dễ",44,"Bản nhạc sonate là bản nhạc huyền thoại của nghệ sĩ nào?", "Beethoven", "Paganini", "Mozart", "Brahms","Beethoven"));
+        questionList.add(new Question("Nghệ thuật","dễ",45,"Đâu là bộ phim có doanh thu cao nhất mọi thời đại?", "Avenger:End Game", "Jurassic World", "Titanic", "Avatar","Avatar"));
+
+        questionList.add(new Question("Nghệ thuật","dễ",46,"Nghệ thuật có thể là một phương tiện hiệu quả để thể hiện và chia sẻ cảm xúc. Bạn nghĩ sao về điều này?", "Không liên quan", "Đồng ý", "Chưa rõ", "Phản đối","Đồng ý"));
+        questionList.add(new Question("Nghệ thuật","dễ",47,"Làm thế nào nghệ sĩ có thể sử dụng màu sắc và ánh sáng để tạo ra ảnh hưởng tích cực trong tác phẩm của họ?", "Tránh sử dụng màu sắc", "Tăng cường ánh sáng mạnh mẽ", "Sử dụng màu sắc phù hợp", "Chỉ sử dụng màu đen trắng","Sử dụng màu sắc phù hợp"));
+        questionList.add(new Question("Nghệ thuật","dễ",48,"Bạn có thể mô tả sự khác biệt giữa nghệ thuật truyền thống và nghệ thuật hiện đại, và cái nào bạn thích hơn? Tại sao?", "Không có sự khác biệt", "Nghệ thuật hiện đại táo bạo hơn", "Nghệ thuật truyền thống tốt hơn", "Cả hai đều có nhược điểm","Nghệ thuật hiện đại táo bạo hơn"));
 
 
     }

@@ -15,13 +15,13 @@ public class MainActivity6 extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main6);
-        TextView question = findViewById(R.id.cau_hoi);
-        TextView dokho= findViewById(R.id.do_kho);
-        TextView dap_an_a= findViewById(R.id.dap_an_a);
-        TextView dap_an_b= findViewById(R.id.dap_an_b);
-        TextView dap_an_c= findViewById(R.id.dap_an_c);
-        TextView dap_an_d= findViewById(R.id.dap_an_d);
-        TextView dap_an_dung= findViewById(R.id.dap_an_dung);
+        TextView question = findViewById(R.id.Cau_hoi);
+        TextView dokho= findViewById(R.id.Do_kho);
+        TextView dap_an_a= findViewById(R.id.Dap_an_A);
+        TextView dap_an_b= findViewById(R.id.Dap_an_B);
+        TextView dap_an_c= findViewById(R.id.Dap_an_C);
+        TextView dap_an_d= findViewById(R.id.Dap_an_D);
+        TextView dap_an_dung= findViewById(R.id.Dap_an_Dung);
         Intent intent= getIntent();
         question.setText(intent.getStringExtra("cauhoi"));
         dokho.setText(intent.getStringExtra("dokho"));

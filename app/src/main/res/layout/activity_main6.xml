@@ -8,7 +8,7 @@
     tools:context=".MainActivity6">
 
     <TextView
-        android:id="@+id/cau_hoi"
+        android:id="@+id/Cau_hoi"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginStart="10dp"
@@ -23,7 +23,7 @@
         android:gravity="center"/>
 
     <TextView
-        android:id="@+id/do_kho"
+        android:id="@+id/Do_kho"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="40dp"
@@ -32,20 +32,20 @@
         android:textSize="16sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/cau_hoi" />
+        app:layout_constraintTop_toBottomOf="@+id/Cau_hoi" />
 
     <TextView
-        android:id="@+id/dap_an_dung"
+        android:id="@+id/Dap_an_Dung"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="50dp"
         android:text="TextView"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/dap_an_d" />
+        app:layout_constraintTop_toBottomOf="@+id/Dap_an_D" />
 
     <TextView
-        android:id="@+id/dap_an_a"
+        android:id="@+id/Dap_an_A"
         android:layout_width="match_parent"
         android:layout_height="50dp"
         android:layout_marginStart="20dp"
@@ -61,7 +61,7 @@
         app:layout_constraintTop_toBottomOf="@+id/do_kho" />
 
     <TextView
-        android:id="@+id/dap_an_b"
+        android:id="@+id/Dap_an_B"
         android:layout_width="match_parent"
         android:layout_height="50dp"
         android:layout_marginStart="20dp"
@@ -73,10 +73,10 @@
         android:text="TextView"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/dap_an_a" />
+        app:layout_constraintTop_toBottomOf="@+id/Dap_an_A" />
 
     <TextView
-        android:id="@+id/dap_an_c"
+        android:id="@+id/Dap_an_C"
         android:layout_width="match_parent"
         android:layout_height="50dp"
         android:layout_marginStart="20dp"
@@ -88,10 +88,10 @@
         android:text="TextView"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/dap_an_b" />
+        app:layout_constraintTop_toBottomOf="@+id/Dap_an_B" />
 
     <TextView
-        android:id="@+id/dap_an_d"
+        android:id="@+id/Dap_an_D"
         android:layout_width="match_parent"
         android:layout_height="50dp"
         android:layout_marginStart="20dp"
@@ -103,5 +103,5 @@
         android:text="TextView"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/dap_an_c" />
+        app:layout_constraintTop_toBottomOf="@+id/Dap_an_C" />
 </androidx.constraintlayout.widget.ConstraintLayout>
